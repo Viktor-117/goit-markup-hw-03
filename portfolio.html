@@ -7,13 +7,13 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body">
     <header class="header">
-        <div class="container">
+        <div class="main-nav container">
             <a class="nav-logo" href="index.html" lang="en"><span class="logo">Web</span>Studio</a>
             <nav class="nav">
                 <ul class="nav-list list">
@@ -29,61 +29,78 @@
         </div>
     </header>
     <main>
-        <section class="portfolio">
+        <section class="section">
            <div class="container">
-                <ul class="list">
-                    <li><button class="filter-btn active-btn" type="button">Все</button></li>
-                    <li><button class="filter-btn" type="button">Веб-сайты</button></li>
-                    <li><button class="filter-btn" type="button">Приложения</button></li>
-                    <li><button class="filter-btn" type="button">Дизайн</button></li>
-                    <li><button class="filter-btn" type="button">Маркетинг</button></li>
+                <ul class="list btn">
+                    <li class="btn-item"><button class="filter-btn active-btn" type="button">Все</button></li>
+                    <li class="btn-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
+                    <li class="btn-item"><button class="filter-btn" type="button">Приложения</button></li>
+                    <li class="btn-item"><button class="filter-btn" type="button">Дизайн</button></li>
+                    <li class="btn-item"><button class="filter-btn" type="button">Маркетинг</button></li>
                 </ul>
                 <h1 class="section-title">Портфолио</h1>
                     <ul class="portfolio-list list">
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-1.jpg" alt="Пример портфолио 1">
-                            <h2 class="portfolio-subtitle">Технокряк</h2>
-                            <p class="portfolio-text">Веб-сайт</p>
+                            <img class="img" src="./images/portfolio-img-1.jpg" alt="Пример портфолио 1">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Технокряк</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
                         </li> 
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-2.jpg" alt="Пример портфолио 2">
-                            <h2 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h2>
+                            <img class="img" src="./images/portfolio-img-2.jpg" alt="Пример портфолио 2">
+                                <div class="card">
+                                <h2 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h2>
                             <p class="portfolio-text">Дизайн</p>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-3.jpg" alt="Пример портфолио 3">
-                            <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <img class="img" src="./images/portfolio-img-3.jpg" alt="Пример портфолио 3">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </li>            
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-4.jpg" alt="Пример портфолио 4">
-                            <h2 class="portfolio-subtitle">Проект Prime</h2>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <img class="img" src="./images/portfolio-img-4.jpg" alt="Пример портфолио 4">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Проект Prime</h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-5.jpg" alt="Пример портфолио 5">
-                            <h2 class="portfolio-subtitle">Проект Boxes</h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <img class="img" src="./images/portfolio-img-5.jpg" alt="Пример портфолио 5">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Проект Boxes</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-6.jpg" alt="Пример портфолио 6">
-                            <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
-                            <p class="portfolio-text">Веб-сайт</p>
+                            <img class="img" src="./images/portfolio-img-6.jpg" alt="Пример портфолио 6">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-7.jpg" alt="Пример портфолио 7">
-                            <h2 class="portfolio-subtitle">Издание Limited Edition</h2>
-                            <p class="portfolio-text">Дизайн</p>
+                            <img class="img" src="./images/portfolio-img-7.jpg" alt="Пример портфолио 7">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Издание Limited Edition</h2>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-8.jpg" alt="Пример портфолио 8">
-                            <h2 class="portfolio-subtitle">Проект LAB</h2>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <img class="img" src="./images/portfolio-img-8.jpg" alt="Пример портфолио 8">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Проект LAB</h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
                         </li>
                         <li class="portfolio-item">
-                            <img src="./images/portfolio-img-9.jpg" alt="Пример портфолио 9">
-                            <h2 class="portfolio-subtitle">Growing Business</h2>
-                            <p class="portfolio-text">Приложение</p>
+                            <img class="img" src="./images/portfolio-img-9.jpg" alt="Пример портфолио 9">
+                            <div class="card">
+                                <h2 class="portfolio-subtitle">Growing Business</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </li>
                     </ul>
             </div>
