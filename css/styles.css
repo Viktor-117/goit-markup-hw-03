@@ -110,6 +110,9 @@
   background-color: var(--hero-bg-color);
   text-align: center;
 }
+.hero .container {
+  padding: 200px 250px;
+}
 .hero-title {
   margin-top: 0px;
   margin-bottom: 0;
